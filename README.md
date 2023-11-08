@@ -8,4 +8,5 @@ ARM architecture - to fix, when building I needed to do:
 ``docker buildx build --platform linux/amd64 -t skedits .``
 
 And when running: 
+
 ``docker run --rm --platform linux/amd64 skedits``
