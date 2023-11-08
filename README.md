@@ -1,7 +1,9 @@
 # skedits-app
+
 Recipe for running some skeleton edits analysis in the cloud
 
 ## Apple Silicon
+
 I was having issues with `pip` not finding the right wheels I think since my computer is
 ARM architecture - to fix, when building I needed to do:
 
@@ -10,3 +12,13 @@ ARM architecture - to fix, when building I needed to do:
 And when running: 
 
 ``docker run --rm --platform linux/amd64 skedits``
+
+## Publish
+
+To tag:
+
+``docker tag skedits-app bdpedigo/skedits-app``
+
+To push
+
+``docker push bdpedigo/skedits-app``
