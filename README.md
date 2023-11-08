@@ -1,5 +1,5 @@
 # skedits-app
-Recipe for 
+Recipe for running some skeleton edits analysis in the cloud
 
 ## Apple Silicon
 I was having issues with `pip` not finding the right wheels I think since my computer is
