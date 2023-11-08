@@ -2,7 +2,7 @@
 
 Recipe for running some skeleton edits analysis in the cloud
 
-## Apple Silicon
+## Building/running (on Apple Silicon)
 
 I was having issues with `pip` not finding the right wheels I think since my computer is
 ARM architecture - to fix, when building I needed to do:
