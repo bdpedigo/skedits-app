@@ -3,16 +3,16 @@
 	url = https://github.com/bdpedigo/apical_classifier
 [submodule "axon_id"]
 	path = axon_id
-	url = ./axon_id
+	url = https://github.com/bdpedigo/axon_id
 [submodule "neuropull"]
 	path = neuropull
-	url = ./neuropull
+	url = https://github.com/neurodata/neuropull
 [submodule "pcg_skel"]
 	path = pcg_skel
-	url = ./pcg_skel
+	url = https://github.com/bdpedigo/pcg_skel
 [submodule "skedits"]
 	path = skedits
-	url = ./skedits
+	url = https://github.com/bdpedigo/skedits
 [submodule "skeleton_plot"]
 	path = skeleton_plot
-	url = ./skeleton_plot
+	url = https://github.com/bdpedigo/skeleton_plot
