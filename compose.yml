@@ -1,0 +1,8 @@
+services:
+  skedits-app:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ~/.cloudvolume/secrets:/root/.cloudvolume/secrets
