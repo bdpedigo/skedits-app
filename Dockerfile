@@ -45,4 +45,6 @@ RUN poetry install --only main
 # Run! 
 WORKDIR /app
 COPY app.py /app
+ENV SKEDITS_USE_CLOUD true
+ENV SKEDITS_RECOMPUTE true
 CMD ["python", "app.py"]
