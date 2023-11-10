@@ -11,4 +11,4 @@ def stop_fn(elapsed_time):
 
 lease_seconds = 4 * 3600
 
-tq.poll(lease_seconds=lease_seconds, verbose=True, tally=True)
+tq.poll(lease_seconds=lease_seconds, verbose=False, tally=False)

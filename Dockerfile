@@ -45,6 +45,6 @@ RUN poetry install --only main
 # Run! 
 WORKDIR /app
 COPY run_jobs.py /app
-ENV SKEDITS_USE_CLOUD true
-ENV SKEDITS_RECOMPUTE false
+ENV SKEDITS_USE_CLOUD True
+ENV SKEDITS_RECOMPUTE False
 CMD ["python", "run_jobs.py"]

@@ -9,15 +9,19 @@ ARM architecture - to fix, when building I needed to do:
 
 ``docker buildx build --platform linux/amd64 -t skedits .``
 
-And when running: 
+And when running:
 
-``docker run --rm --platform linux/amd64 skedits``
+``docker run --rm --platform linux/amd64 -v /Users/ben.pedigo/.cloudvolume/secrets:/root/.cloudvolume/secrets skedits-app``
+
+There's also:
+
+``docker compose up``
 
 ## Publish
 
 To tag:
 
-``docker tag skedits-app bdpedigo/skedits-app``
+``docker tag skedits-app bdpedigo/skedits-app:v<X>``
 
 To push
 

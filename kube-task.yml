@@ -5,7 +5,7 @@ metadata:
     run: skedits-app
   name: skedits-app
 spec:
-  replicas: 0 # number of pods to run with this run, 4 pods per
+  replicas: 4 # number of pods to run
   selector:
     matchLabels:
       run: skedits-app
@@ -20,7 +20,7 @@ spec:
         run: skedits-app # metadata label attached to pod
     spec:
       containers:
-        - image: bdpedigo/skedits-app:v1 # image to pull from dockerhub
+        - image: bdpedigo/skedits-app:v3 # image to pull from dockerhub
           name: skedits-app # name of container in pod
           imagePullPolicy: Always
           command: ["/bin/sh"]
