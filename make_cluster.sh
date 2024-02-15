@@ -19,7 +19,7 @@ gcloud container --project "exalted-beanbag-334502" clusters create "skedits-app
     --zone "us-east4-b" \
     --no-enable-basic-auth \
     --release-channel "stable" \
-    --machine-type "c2-standard-4" \
+    --machine-type "c2-standard-16" \
     --image-type "COS_CONTAINERD" \
     --disk-type "pd-standard" \
     --disk-size "100" \

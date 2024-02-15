@@ -2,3 +2,7 @@
 ./skedits/.venv
 Dockerfile
 .git
+*.ipynb
+*.pyc
+*.png
+*.jpg
