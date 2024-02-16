@@ -20,7 +20,7 @@ spec:
         run: skedits-app # metadata label attached to pod
     spec:
       containers:
-        - image: bdpedigo/skedits-app:v9 # image to pull from dockerhub
+        - image: bdpedigo/skedits-app:v12 # image to pull from dockerhub
           name: skedits-app # name of container in pod
           imagePullPolicy: Always
           command: ["/bin/sh"]
@@ -32,11 +32,11 @@ spec:
               value: "/root/.cloudvolume/secrets/google-secret.json" #TODO
           resources:
             requests:
-              memory: 0.5Gi
-              cpu: 400m
+              memory: 8.0Gi
+              cpu: 1600m
             limits:
-              memory: 1.0Gi
-              cpu: 4000m
+              memory: 15.0Gi
+              cpu: 3500m
           volumeMounts:
             - name: secrets-volume
               mountPath: /root/.cloudvolume/secrets

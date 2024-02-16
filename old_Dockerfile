@@ -44,7 +44,7 @@ RUN pip install -e ./pkg
 WORKDIR /app
 COPY run_jobs.py /app
 ENV SKEDITS_USE_CLOUD True
-ENV SKEDITS_RECOMPUTE False
+ENV SKEDITS_RECOMPUTE True
 ENV LAZYCLOUD_USE_CLOUD True
 ENV LAZYCLOUD_RECOMPUTE False
 CMD ["python", "run_jobs.py"]

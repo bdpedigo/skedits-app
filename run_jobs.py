@@ -1,7 +1,7 @@
 from pkg.workers import create_sequences  # noqa: F401
 from taskqueue import TaskQueue
 
-tq = TaskQueue("https://sqs.us-west-2.amazonaws.com/629034007606/ben-skedit")
+tq = TaskQueue("https://sqs.us-west-2.amazonaws.com/629034007606/ben-skedit-dead")
 
 
 def stop_fn(elapsed_time):
